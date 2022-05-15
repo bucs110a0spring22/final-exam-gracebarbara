@@ -15,7 +15,6 @@ class SunsetsunriseAPI:
 		sunset = results.get('sunset')
 		print("Sunset Time: ", sunset)
 		
-
 	def sunrisetime(self):
 		response = self.get()
 		results = response.get('results')

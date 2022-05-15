@@ -1,13 +1,12 @@
-import requests
 import GeolocationAPI
 import SunsetsunriseAPI
 
 def main():
-	geoapi = GeolocationAPI.GeolocationAPI()
+	postal_code = input("What is your ZIP code? ")
+	geoapi = GeolocationAPI.GeolocationAPI(postal_code)
 	latitude = geoapi.latitude()
 	longitude = geoapi.longitude()
 	sunapi = SunsetsunriseAPI.SunsetsunriseAPI(latitude, longitude)
-	sunapi.get()
 	sunapi.sunrisetime()
 	sunapi.sunsettime()
 

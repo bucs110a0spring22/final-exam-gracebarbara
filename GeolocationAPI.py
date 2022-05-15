@@ -1,9 +1,8 @@
 import requests
 
 class GeolocationAPI:
-	def __init__(self):
-		self.api_url = "https://ipgeolocation.abstractapi.com/v1/?api_key=27977de3b6d846b0856d51a1ccbe262b"
-
+	def __init__(self, postal_code):
+		self.api_url = f"https://ipgeolocation.abstractapi.com/v1/?api_key=27977de3b6d846b0856d51a1ccbe262b&postal_code={postal_code}"
 
 	def get(self):
 		r = requests.get(self.api_url)
