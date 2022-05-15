@@ -12,21 +12,21 @@ Please make sure you have completed the soot survey at:
     [soot.binghamton.edu](https://soot.binghamton.edu)
 
 Please list the urls for the APIs you used:
-https://app.abstractapi.com/api/ip-geolocation/tester
+https://whatdoestrumpthink.com/api-docs/index.html#introduction
 
-https://sunrise-sunset.org/api
+https://kanye.rest/
 
 Summary of Program:
-This program uses an IP geolocation API to generate the users IP address and pull in their latitude and longitude coordinates. Using those coordinates, the Sunrise and Sunset API tells the user what time the sun rises and sets at their location. 
+This program uses an API quote generator for Kanye West and a separate one for Donald Trump. The quotes of each are processed in and randomly generated to appear on the screen. Then, the user has to guess who said the quote and also indicated if the other would agree based on common words.
 
 Most Challenging topic in the course:
-The most challenging topic in this course was classes. It was the topic that took me the longest to comprhend and still gives me some trouble sometimes.
+The most challenging topic in this course was defining classes. It was the topic that took me the longest to comprhend and still gives me some trouble sometimes.
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
  None
 
 ## REFERENCES:
- < List any outside resources used >
+https://realpython.com/python-requests/#the-get-request
 
 ## MISCELLANEOUS COMMENTS:
- < None
+ None
