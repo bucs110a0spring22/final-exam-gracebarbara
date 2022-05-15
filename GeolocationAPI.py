@@ -8,10 +8,19 @@ class GeolocationAPI:
 	def get(self):
 		r = requests.get(self.api_url)
 		response = r.json()
+		return response
+
+	def latitude(self):
+		response = self.get()
 		latitude = response.get('latitude')
-		longitude = response.get('longitude')
 		print("Your Latitude: ", latitude)
+		return latitude
+
+	def longitude(self):
+		response = self.get()
+		longitude = response.get('longitude')
 		print("Your Longitude: ", longitude)
+		return longitude
 		
 
 
